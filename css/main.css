@@ -1,0 +1,16 @@
+
+.list__item {
+  width: 400px;
+  height: 350px;
+  border: 3px solid;
+  overflow-y: auto;
+  border-radius: 5px;
+  padding: 20px;
+  border-color: rgb(8, 208, 8);
+}
+
+.card-trailer {
+  font-weight: bold;
+  font-size: 26px;
+  text-decoration: none;
+}
