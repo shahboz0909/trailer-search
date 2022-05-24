@@ -53,7 +53,7 @@ renderMovies(normalizedMovies);
 
 
 
-elForm.addEventListener("submit", (evt) => {
+elForm.addEventListener("input", (evt) => {
   evt.preventDefault();
 
   let searchMovie = new RegExp (elInput.value.trim(), "gi");
