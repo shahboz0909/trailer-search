@@ -8,7 +8,7 @@ let normalizedMovies = movies.map((movie, i) => {
 
   return {
     id: i + 1,
-    title: movie.Title,
+    title: movie.Title.toString(),
     fulltitle: movie.fulltitle,
     categories: movie.Categories.split("|").join(", "),
     summary: movie.summary,
